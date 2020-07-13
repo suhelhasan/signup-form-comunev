@@ -1,0 +1,131 @@
+.comunev {
+  width: 100%;
+  height: 100vh;
+  background: rgb(226, 225, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpPage {
+  background-color: transparent;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 90vh;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  z-index: 100;
+}
+
+/* Image Section */
+.imageSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #009431f1;
+}
+.imageSection > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.imageSectionPunchline {
+  font-family: "Dancing Script", cursive;
+  font-size: 27px;
+}
+.logo {
+  width: 75px;
+}
+.welcomeImage {
+  width: 65%;
+}
+
+/* Form section */
+.formSection {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 0px 15px 15px 0px;
+}
+.headingSection h1 {
+  color: #009431f1;
+}
+
+input,
+select {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #aaaaaa;
+  font-size: 15px;
+  width: 100%;
+  margin: 8px 0;
+  padding-bottom: 4px;
+}
+.remember {
+  display: flex;
+}
+
+.remember input {
+  width: 10%;
+  margin-top: 3px;
+}
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+.signUpButton {
+  color: #fff;
+  background-color: #009431f1;
+  border: none;
+  width: 35%;
+  padding: 2.5% 0%;
+  border-radius: 5px;
+  margin: 6px 0;
+}
+
+.otherSignUpOptions {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+.otherSignUpOptions button:first-child {
+  color: #fff;
+  background-color: #4267b2;
+  border: none;
+  width: 48%;
+  padding: 2.5% 0%;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.otherSignUpOptions button:last-child {
+  color: #fff;
+  background-color: #db4437;
+  border: none;
+  width: 48%;
+  padding: 2.5% 0%;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.label {
+  color: #000;
+  font-weight: bold;
+}
